@@ -13,7 +13,6 @@ generate_feeds = true
 taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
-highlight_code = true
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
