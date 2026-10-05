@@ -1,13 +1,19 @@
+# Landing page details
+title= "Tech blog of Mariachi in a jar 🍯"
+description = "Notes on support engineering, Kubernetes, Rust, and systems."
+default_language = "en"
+theme = "tabi"
+
 # The URL the site will be built for
 base_url = "https://mariachiinajar.github.io"
 
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
+generate_feeds = true
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
+highlight_code = true
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
